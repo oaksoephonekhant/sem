@@ -1,20 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="5f0e9db6-40b0-4d37-b0ac-b8e0b0ab2d8c" name="Default Changelist" comment="fixup! Update README.md">
-      <change afterPath="$PROJECT_DIR$/.idea/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/seMethods.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/napier/sem/App.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+    <list default="true" id="5f0e9db6-40b0-4d37-b0ac-b8e0b0ab2d8c" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/napier/sem/App.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/napier/sem/App.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/napier/sem/App.class" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CodeInsightWorkspaceSettings">
+    <option name="optimizeImportsOnTheFly" value="true" />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -62,9 +60,12 @@
     <property name="node.js.path.for.package.tslint" value="project" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.0" />
     <property name="settings.editor.selected.configurable" value="reference.projectsettings.compiler.javacompiler" />
   </component>
-  <component name="RunManager" selected="Docker.Docker Image">
+  <component name="RunManager" selected="Application.App">
     <configuration name="App" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.napier.sem.App" />
       <module name="seMethods" />
@@ -90,10 +91,14 @@
       </deployment>
       <method v="2" />
     </configuration>
+    <list>
+      <item itemvalue="Application.App" />
+      <item itemvalue="Docker.Docker Image" />
+    </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Docker.Docker Image" />
         <item itemvalue="Application.App" />
+        <item itemvalue="Docker.Docker Image" />
       </list>
     </recent_temporary>
   </component>
@@ -135,7 +140,7 @@
       <option name="presentableId" value="Default" />
       <updated>1579074371280</updated>
       <workItem from="1579074375487" duration="3285000" />
-      <workItem from="1579143464773" duration="2383000" />
+      <workItem from="1579143464773" duration="4207000" />
     </task>
     <task id="LOCAL-00001" summary="first commit, adding initial files">
       <created>1579074676295</created>
@@ -207,7 +212,14 @@
       <option name="project" value="LOCAL" />
       <updated>1579144718121</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="fixup! Update README.md">
+      <created>1579145868456</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1579145868456</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -233,14 +245,22 @@
       <screen x="0" y="0" width="1536" height="864" />
     </state>
     <state x="361" y="92" key="#Notifications/0.0.1536.864@0.0.1536.864" timestamp="1579144413863" />
+    <state x="361" y="92" key="#Project_Structure" timestamp="1579145945945">
+      <screen x="0" y="0" width="1536" height="864" />
+    </state>
+    <state x="361" y="92" key="#Project_Structure/0.0.1536.864@0.0.1536.864" timestamp="1579145945945" />
     <state x="361" y="92" key="#Pull_Image" timestamp="1579145098383">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
     <state x="361" y="92" key="#Pull_Image/0.0.1536.864@0.0.1536.864" timestamp="1579145098383" />
-    <state x="393" y="28" key="CommitChangelistDialog2" timestamp="1579145673669">
+    <state x="223" y="88" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1579146042677">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state x="393" y="28" key="CommitChangelistDialog2/0.0.1536.864@0.0.1536.864" timestamp="1579145673669" />
+    <state x="223" y="88" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1536.864@0.0.1536.864" timestamp="1579146042677" />
+    <state x="393" y="28" key="CommitChangelistDialog2" timestamp="1579145867755">
+      <screen x="0" y="0" width="1536" height="864" />
+    </state>
+    <state x="393" y="28" key="CommitChangelistDialog2/0.0.1536.864@0.0.1536.864" timestamp="1579145867755" />
     <state width="1493" height="223" key="GridCell.Tab.0.bottom" timestamp="1579079087351">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
@@ -257,6 +277,10 @@
       <screen x="0" y="0" width="1536" height="864" />
     </state>
     <state width="1493" height="223" key="GridCell.Tab.0.right/0.0.1536.864@0.0.1536.864" timestamp="1579079087351" />
+    <state x="299" y="88" key="Maven.ArtifactSearchDialog" timestamp="1579146375277">
+      <screen x="0" y="0" width="1536" height="864" />
+    </state>
+    <state x="299" y="88" key="Maven.ArtifactSearchDialog/0.0.1536.864@0.0.1536.864" timestamp="1579146375277" />
     <state x="481" y="149" key="MultipleFileMergeDialog" timestamp="1579144313801">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
@@ -265,10 +289,10 @@
       <screen x="0" y="0" width="1536" height="864" />
     </state>
     <state x="277" y="76" key="SettingsEditor/0.0.1536.864@0.0.1536.864" timestamp="1579075516162" />
-    <state x="361" y="166" key="Vcs.Push.Dialog.v2" timestamp="1579144727027">
+    <state x="361" y="166" key="Vcs.Push.Dialog.v2" timestamp="1579145877076">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state x="361" y="166" key="Vcs.Push.Dialog.v2/0.0.1536.864@0.0.1536.864" timestamp="1579144727027" />
+    <state x="361" y="166" key="Vcs.Push.Dialog.v2/0.0.1536.864@0.0.1536.864" timestamp="1579145877076" />
     <state x="470" y="258" key="com.intellij.ide.util.TipDialog" timestamp="1579143468503">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
