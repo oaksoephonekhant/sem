@@ -3,8 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="5f0e9db6-40b0-4d37-b0ac-b8e0b0ab2d8c" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/napier/sem/App.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/napier/sem/App.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/napier/sem/App.class" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -140,7 +138,7 @@
       <option name="presentableId" value="Default" />
       <updated>1579074371280</updated>
       <workItem from="1579074375487" duration="3285000" />
-      <workItem from="1579143464773" duration="4207000" />
+      <workItem from="1579143464773" duration="4583000" />
     </task>
     <task id="LOCAL-00001" summary="first commit, adding initial files">
       <created>1579074676295</created>
@@ -219,7 +217,14 @@
       <option name="project" value="LOCAL" />
       <updated>1579145868456</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="fixup! Update README.md">
+      <created>1579148313211</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1579148313211</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -257,10 +262,10 @@
       <screen x="0" y="0" width="1536" height="864" />
     </state>
     <state x="223" y="88" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1536.864@0.0.1536.864" timestamp="1579146042677" />
-    <state x="393" y="28" key="CommitChangelistDialog2" timestamp="1579145867755">
+    <state x="393" y="28" key="CommitChangelistDialog2" timestamp="1579148312396">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state x="393" y="28" key="CommitChangelistDialog2/0.0.1536.864@0.0.1536.864" timestamp="1579145867755" />
+    <state x="393" y="28" key="CommitChangelistDialog2/0.0.1536.864@0.0.1536.864" timestamp="1579148312396" />
     <state width="1493" height="223" key="GridCell.Tab.0.bottom" timestamp="1579079087351">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
@@ -289,10 +294,10 @@
       <screen x="0" y="0" width="1536" height="864" />
     </state>
     <state x="277" y="76" key="SettingsEditor/0.0.1536.864@0.0.1536.864" timestamp="1579075516162" />
-    <state x="361" y="166" key="Vcs.Push.Dialog.v2" timestamp="1579145877076">
+    <state x="361" y="166" key="Vcs.Push.Dialog.v2" timestamp="1579148653557">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state x="361" y="166" key="Vcs.Push.Dialog.v2/0.0.1536.864@0.0.1536.864" timestamp="1579145877076" />
+    <state x="361" y="166" key="Vcs.Push.Dialog.v2/0.0.1536.864@0.0.1536.864" timestamp="1579148653557" />
     <state x="470" y="258" key="com.intellij.ide.util.TipDialog" timestamp="1579143468503">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
