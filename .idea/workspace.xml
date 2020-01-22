@@ -3,6 +3,10 @@
   <component name="ChangeListManager">
     <list default="true" id="5f0e9db6-40b0-4d37-b0ac-b8e0b0ab2d8c" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Dockerfile" beforeDir="false" afterPath="$PROJECT_DIR$/Dockerfile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/seMethods.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/napier/sem/App.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/napier/sem/App.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -29,10 +33,11 @@
     <option name="PUSH_AUTO_UPDATE" value="true" />
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="develop" />
+        <entry key="$PROJECT_DIR$" value="Feature" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="UPDATE_TYPE" value="MERGE" />
   </component>
   <component name="IgnoredFileRootStore">
     <option name="generatedRoots">
@@ -41,15 +46,23 @@
       </set>
     </option>
   </component>
+  <component name="MavenImportPreferences">
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="importAutomatically" value="true" />
+      </MavenImportingSettings>
+    </option>
+  </component>
   <component name="ProjectId" id="1WQGOGqF20p3x4MnEwSFk4dFJQf" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
-    <option name="showExcludedFiles" value="true" />
     <option name="showLibraryContents" value="true" />
+    <option name="showMembers" value="true" />
   </component>
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="node.js.detected.package.eslint" value="true" />
@@ -58,12 +71,12 @@
     <property name="node.js.path.for.package.tslint" value="project" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
-    <property name="project.structure.last.edited" value="Modules" />
-    <property name="project.structure.proportion" value="0.0" />
-    <property name="project.structure.side.proportion" value="0.0" />
-    <property name="settings.editor.selected.configurable" value="reference.projectsettings.compiler.javacompiler" />
+    <property name="project.structure.last.edited" value="Project" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="MavenSettings" />
   </component>
-  <component name="RunManager" selected="Application.App">
+  <component name="RunManager" selected="Docker.Docker Image">
     <configuration name="App" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.napier.sem.App" />
       <module name="seMethods" />
@@ -95,6 +108,9 @@
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Docker.Docker Image" />
+        <item itemvalue="Application.App" />
+        <item itemvalue="Docker.Docker Image" />
         <item itemvalue="Application.App" />
         <item itemvalue="Docker.Docker Image" />
       </list>
@@ -103,6 +119,12 @@
   <component name="ServiceViewManager">
     <option name="viewStates">
       <list>
+        <serviceView>
+          <treeState>
+            <expand />
+            <select />
+          </treeState>
+        </serviceView>
         <serviceView>
           <treeState>
             <expand>
@@ -123,6 +145,15 @@
             </expand>
             <select />
           </treeState>
+          <option name="isSelected" value="true" />
+          <option name="viewType" value="contributor" />
+          <option name="roots">
+            <list>
+              <ServiceState>
+                <option name="contributor" value="com.intellij.docker.view.DockerServiceViewContributor" />
+              </ServiceState>
+            </list>
+          </option>
         </serviceView>
       </list>
     </option>
@@ -138,7 +169,12 @@
       <option name="presentableId" value="Default" />
       <updated>1579074371280</updated>
       <workItem from="1579074375487" duration="3285000" />
-      <workItem from="1579143464773" duration="4583000" />
+      <workItem from="1579143464773" duration="7953000" />
+      <workItem from="1579229537319" duration="100000" />
+      <workItem from="1579229641488" duration="1657000" />
+      <workItem from="1579582691259" duration="2384000" />
+      <workItem from="1579661792437" duration="1531000" />
+      <workItem from="1579664200731" duration="4782000" />
     </task>
     <task id="LOCAL-00001" summary="first commit, adding initial files">
       <created>1579074676295</created>
@@ -224,7 +260,35 @@
       <option name="project" value="LOCAL" />
       <updated>1579148313211</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="Add Readme.md">
+      <created>1579148764773</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1579148764773</updated>
+    </task>
+    <task id="LOCAL-00014" summary="updates from lab2">
+      <created>1579584105498</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1579584105498</updated>
+    </task>
+    <task id="LOCAL-00015" summary="updates from lab2">
+      <created>1579663719586</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1579663719587</updated>
+    </task>
+    <task id="LOCAL-00016" summary="updates from lab2">
+      <created>1579665381729</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1579665381729</updated>
+    </task>
+    <option name="localTasksCounter" value="17" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -239,72 +303,94 @@
     <MESSAGE value="Update travis.yml" />
     <MESSAGE value="Update READEME.md" />
     <MESSAGE value="fixup! Update README.md" />
-    <option name="LAST_COMMIT_MESSAGE" value="fixup! Update README.md" />
+    <MESSAGE value="Add Readme.md" />
+    <MESSAGE value="updates from lab2" />
+    <option name="LAST_COMMIT_MESSAGE" value="updates from lab2" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="496" y="80" key="#Docker_Image" timestamp="1579145372289">
+    <state x="361" y="95" key="#Docker" timestamp="1579667384341">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state x="496" y="80" key="#Docker_Image/0.0.1536.864@0.0.1536.864" timestamp="1579145372289" />
-    <state x="361" y="92" key="#Notifications" timestamp="1579144413863">
+    <state x="361" y="95" key="#Docker/0.0.1536.864@0.0.1536.864" timestamp="1579667384341" />
+    <state x="496" y="80" key="#Docker_Image" timestamp="1579667184843">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state x="361" y="92" key="#Notifications/0.0.1536.864@0.0.1536.864" timestamp="1579144413863" />
-    <state x="361" y="92" key="#Project_Structure" timestamp="1579145945945">
+    <state x="496" y="80" key="#Docker_Image/0.0.1536.864@0.0.1536.864" timestamp="1579667184843" />
+    <state x="361" y="92" key="#Notifications" timestamp="1579584627078">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state x="361" y="92" key="#Project_Structure/0.0.1536.864@0.0.1536.864" timestamp="1579145945945" />
-    <state x="361" y="92" key="#Pull_Image" timestamp="1579145098383">
+    <state x="361" y="92" key="#Notifications/0.0.1536.864@0.0.1536.864" timestamp="1579584627078" />
+    <state x="361" y="92" key="#Project_Structure" timestamp="1579230224241">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state x="361" y="92" key="#Pull_Image/0.0.1536.864@0.0.1536.864" timestamp="1579145098383" />
+    <state x="361" y="92" key="#Project_Structure/0.0.1536.864@0.0.1536.864" timestamp="1579230224241" />
+    <state x="361" y="92" key="#Pull_Image" timestamp="1579664928547">
+      <screen x="0" y="0" width="1536" height="864" />
+    </state>
+    <state x="361" y="92" key="#Pull_Image/0.0.1536.864@0.0.1536.864" timestamp="1579664928547" />
     <state x="223" y="88" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1579146042677">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
     <state x="223" y="88" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1536.864@0.0.1536.864" timestamp="1579146042677" />
-    <state x="393" y="28" key="CommitChangelistDialog2" timestamp="1579148312396">
+    <state x="393" y="28" key="CommitChangelistDialog2" timestamp="1579665380809">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state x="393" y="28" key="CommitChangelistDialog2/0.0.1536.864@0.0.1536.864" timestamp="1579148312396" />
-    <state width="1493" height="223" key="GridCell.Tab.0.bottom" timestamp="1579079087351">
+    <state x="393" y="28" key="CommitChangelistDialog2/0.0.1536.864@0.0.1536.864" timestamp="1579665380809" />
+    <state x="147" y="75" key="DiffContextDialog" timestamp="1579584030265">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state width="1493" height="223" key="GridCell.Tab.0.bottom/0.0.1536.864@0.0.1536.864" timestamp="1579079087351" />
-    <state width="1493" height="223" key="GridCell.Tab.0.center" timestamp="1579079087351">
+    <state x="147" y="75" key="DiffContextDialog/0.0.1536.864@0.0.1536.864" timestamp="1579584030265" />
+    <state width="746" height="223" key="GridCell.Tab.0.bottom" timestamp="1579669001175">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state width="1493" height="223" key="GridCell.Tab.0.center/0.0.1536.864@0.0.1536.864" timestamp="1579079087351" />
-    <state width="1493" height="223" key="GridCell.Tab.0.left" timestamp="1579079087351">
+    <state width="746" height="223" key="GridCell.Tab.0.bottom/0.0.1536.864@0.0.1536.864" timestamp="1579669001175" />
+    <state width="746" height="223" key="GridCell.Tab.0.center" timestamp="1579669001174">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state width="1493" height="223" key="GridCell.Tab.0.left/0.0.1536.864@0.0.1536.864" timestamp="1579079087351" />
-    <state width="1493" height="223" key="GridCell.Tab.0.right" timestamp="1579079087351">
+    <state width="746" height="223" key="GridCell.Tab.0.center/0.0.1536.864@0.0.1536.864" timestamp="1579669001174" />
+    <state width="746" height="223" key="GridCell.Tab.0.left" timestamp="1579669001174">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state width="1493" height="223" key="GridCell.Tab.0.right/0.0.1536.864@0.0.1536.864" timestamp="1579079087351" />
+    <state width="746" height="223" key="GridCell.Tab.0.left/0.0.1536.864@0.0.1536.864" timestamp="1579669001174" />
+    <state width="746" height="223" key="GridCell.Tab.0.right" timestamp="1579669001175">
+      <screen x="0" y="0" width="1536" height="864" />
+    </state>
+    <state width="746" height="223" key="GridCell.Tab.0.right/0.0.1536.864@0.0.1536.864" timestamp="1579669001175" />
     <state x="299" y="88" key="Maven.ArtifactSearchDialog" timestamp="1579146375277">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
     <state x="299" y="88" key="Maven.ArtifactSearchDialog/0.0.1536.864@0.0.1536.864" timestamp="1579146375277" />
-    <state x="481" y="149" key="MultipleFileMergeDialog" timestamp="1579144313801">
+    <state x="147" y="75" key="MergeDialog" timestamp="1579154174986">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state x="481" y="149" key="MultipleFileMergeDialog/0.0.1536.864@0.0.1536.864" timestamp="1579144313801" />
-    <state x="277" y="76" key="SettingsEditor" timestamp="1579075516162">
+    <state x="147" y="75" key="MergeDialog/0.0.1536.864@0.0.1536.864" timestamp="1579154174986" />
+    <state x="481" y="149" key="MultipleFileMergeDialog" timestamp="1579668559830">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state x="277" y="76" key="SettingsEditor/0.0.1536.864@0.0.1536.864" timestamp="1579075516162" />
-    <state x="361" y="166" key="Vcs.Push.Dialog.v2" timestamp="1579148653557">
+    <state x="481" y="149" key="MultipleFileMergeDialog/0.0.1536.864@0.0.1536.864" timestamp="1579668559830" />
+    <state x="277" y="76" key="SettingsEditor" timestamp="1579667432026">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state x="361" y="166" key="Vcs.Push.Dialog.v2/0.0.1536.864@0.0.1536.864" timestamp="1579148653557" />
+    <state x="277" y="76" key="SettingsEditor/0.0.1536.864@0.0.1536.864" timestamp="1579667432026" />
+    <state x="361" y="166" key="Vcs.Push.Dialog.v2" timestamp="1579665399551">
+      <screen x="0" y="0" width="1536" height="864" />
+    </state>
+    <state x="361" y="166" key="Vcs.Push.Dialog.v2/0.0.1536.864@0.0.1536.864" timestamp="1579665399551" />
     <state x="470" y="258" key="com.intellij.ide.util.TipDialog" timestamp="1579143468503">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
     <state x="470" y="258" key="com.intellij.ide.util.TipDialog/0.0.1536.864@0.0.1536.864" timestamp="1579143468503" />
-    <state x="495" y="225" key="git4idea.merge.GitPullDialog" timestamp="1579144469742">
+    <state x="578" y="350" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1579584684171">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state x="495" y="225" key="git4idea.merge.GitPullDialog/0.0.1536.864@0.0.1536.864" timestamp="1579144469742" />
+    <state x="578" y="350" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1536.864@0.0.1536.864" timestamp="1579584684171" />
+    <state x="550" y="146" key="git4idea.branch.GitSmartOperationDialog" timestamp="1579668553710">
+      <screen x="0" y="0" width="1536" height="864" />
+    </state>
+    <state x="550" y="146" key="git4idea.branch.GitSmartOperationDialog/0.0.1536.864@0.0.1536.864" timestamp="1579668553710" />
+    <state x="495" y="225" key="git4idea.merge.GitPullDialog" timestamp="1579584699889">
+      <screen x="0" y="0" width="1536" height="864" />
+    </state>
+    <state x="495" y="225" key="git4idea.merge.GitPullDialog/0.0.1536.864@0.0.1536.864" timestamp="1579584699889" />
   </component>
 </project>
